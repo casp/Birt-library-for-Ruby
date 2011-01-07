@@ -1,0 +1,16 @@
+Birt Report
+__________________________________________________________________
+
+
+Is a library developed in Ruby have management integration with Ruby on Rails Eclipse BIRT.
+
+For its implementation:
+
+   require 'birt_report'
+
+   obj = GeneratorReport.new
+
+   obj.create_report (<user_id>, <format> <name_report> [<params>])
+
+    The parameters can be type arrangement in case the report needs more than one parameter.
+
